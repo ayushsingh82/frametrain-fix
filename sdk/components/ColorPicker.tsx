@@ -158,7 +158,7 @@ export function ColorPicker({
                                 <div
                                     key={s}
                                     style={{ backgroundImage: s }}
-                                    className="w-full h-12 bg-center bg-cover rounded-md cursor-pointer active:scale-105"
+                                    className="w-full h-14 bg-center bg-cover rounded-md cursor-pointer active:scale-105"
                                     onClick={() => setBackground(s)}
                                 />
                             ))}
